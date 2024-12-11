@@ -1,0 +1,573 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Epilogue;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 2% 5%;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 0;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFFFFFCC;
+    font-size: 17px;
+}
+
+.line3 {
+    display: none;
+}
+
+.bg-img {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    z-index: -1;
+}
+
+/* block-1 */
+.block1 {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+
+}
+
+.text1 {
+    width: 69%;
+    height: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(./otabek-images/Rectangle\ 1193.png);
+    background-repeat: no-repeat;
+    background-position: 0px 25px;
+    position: relative;
+}
+
+.tree {
+    width: 50px;
+    position: absolute;
+    top: 245px;
+    left: 300px;
+}
+
+.text1 h1 {
+    font-size: 100px;
+    color: #2d2d2d;
+    width: 58%;
+
+}
+
+.text1 p {
+    font-size: 20px;
+    color: #2d2d2d;
+    width: 25%;
+}
+
+.foto1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px 0 0;
+}
+
+.foto1 h4 a {
+    color: #2d2d2d;
+}
+
+/* block2 */
+.block2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card2 {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.card3 h2 {
+    font-weight: 500;
+}
+
+/* block-3 */
+.block3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.foto3 {
+    width: 59%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.text3 {
+    width: 39%;
+    height: auto;
+}
+
+.text3 img {
+    width: 100%;
+    height: 72%;
+}
+
+.card3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card3-text h1 {
+    font-size: 70px;
+}
+
+.card3-img {
+    width: 100%;
+}
+
+.foto3-footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foto3-footer p {
+    font-size: 20px;
+    color: #2D2D2DCC;
+    width: 70%;
+}
+
+.foto3-footer h1 {
+    font-size: 48px;
+    color: #2d2d2d;
+    width: 70%;
+}
+
+.text3-ul {
+    width: 70%;
+    height: 24%;
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+    gap: 20px;
+    padding: 20px 0 0 30px;
+}
+
+.text3-ul a {
+    color: #2D2D2D80;
+    font-size: 20px;
+
+}
+
+/* block-4 */
+.block4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 150px;
+}
+.foto4{
+    width: 100%;
+    height: auto;
+}
+.foto4 img{
+    width: 100%;
+    height: auto;
+}
+.text4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.card4{
+    width: 16%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card4 img{
+    width: 100%;
+}
+.box4{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box4 p{
+    color: #2d2d2d;
+}
+.imgg5{
+    height: 74%;
+}
+/* block-5 */
+.block5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.text5{
+    width: 50%;
+    height: 50%;
+    padding: 40px 0 0 0;
+}
+.text5 h1{
+    color: #2D2D2D;
+    margin-bottom: 40px;
+}
+.text5 p{
+    width: 50%;
+    color: #2D2D2D;
+    line-height: 27px;
+    font-size: 17px;
+
+}
+
+
+.foto5{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    padding: 0 0 80px 0;
+
+}
+input{
+    width: 90%;
+    height: 70px;
+    background-color: #DFDFDF;
+    border: none;
+    padding: 0 30px;
+    outline: none;
+}
+textarea{
+    width: 90%;
+    height: 196px;
+    background-color: #DFDFDF;
+    padding: 30px;
+    color: #2D2D2D80;
+    font-size: 17px;
+    outline: none;
+}
+button{
+    padding: 25px 70px;
+    background-color: #2D2D2D;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2D2D2D;
+}
+.footer-text{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: start;
+    padding: 20px 70px;
+}
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-ul a{
+    color: #FFFFFF80;
+}
+
+.footer-foto{
+    width: 70%;
+    height: auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.footer-foto-ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.footer-foto-ul a{
+    color: #FFFFFF80;
+}
+.footer-body{
+    display: flex;
+    align-items: center;
+    gap: 240px;
+    flex-wrap: wrap;
+}
+.silka{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.black{
+    color: #2d2d2d;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    ul {
+        display: none;
+    }
+
+    .line3 {
+        display: block;
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .laptop-logo {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block;
+    }
+
+    .block1 {
+        margin-top: 0;
+    }
+
+    .text1 {
+        width: 100%;
+
+    }
+
+    .text1 h1 {
+        color: rgba(250, 249, 249, 0.853);
+    }
+
+    .text1 p {
+        width: 100%;
+        color: rgba(250, 249, 249, 0.853);
+        text-align: center;
+    }
+
+    .foto1 h4 a {
+        color: black;
+        margin-top: 50px;
+    }
+
+    .foto1 {
+        padding: 0;
+        text-align: center;
+    }
+
+    .block2 {
+        gap: 20px;
+        margin-top: 0;
+    }
+
+    .card2 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .foto3 {
+        width: 100%;
+    }
+
+    .text3 {
+        width: 100%;
+    }
+
+    .card3 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .card3-text h1 {
+        font-size: 45px;
+        width: 100%;
+
+    }
+
+    .card3-text-img {
+        width: 100%;
+    }
+
+    .foto3-footer {
+        text-align: center;
+
+    }
+
+    .foto3-footer h1 {
+        width: 100%;
+    }
+
+    .foto3-footer p {
+        width: 100%;
+    }
+
+    .text3-ul {
+        width: 100%;
+        height: auto;
+    }
+    .block4{
+        margin-top: 50px;
+    }
+    .text4{
+        gap: 20px;
+    }
+    .card4{
+        width: 100%;
+    }
+    .block5{
+        text-align: center;
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .text5{
+        width: 100%;
+    }
+    .text5 p{
+        width: 100%;
+    }
+    .foto5{
+        width: 100%;
+        align-items: center;
+    }
+    input{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    .footer-text{
+        width: 100%;
+        align-items: center;
+    }
+    .footer-foto{
+        width: 100%;
+        
+    }
+    .footer-foto-ul{
+        gap: 50px;
+        padding: 10px;
+    }
+    .footer-body{
+        gap: 20px;
+        justify-content: center;
+    }
+    .footer-ul{
+        flex-direction: row;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    
+
+}
+
+
+
+
+
+
+
+@media (min-width:480px) and (max-width:960px) {
+    ul {
+        display: none;
+    }
+
+    .line3 {
+        display: block;
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .laptop-logo {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block;
+    }
+
+    .block1 {
+        margin-top: 0;
+    }
+
+    .text1 {
+        width: 100%;
+
+    }
+
+    .text1 h1 {
+        color: rgba(250, 249, 249, 0.853);
+    }
+
+    .text1 p {
+        width: 100%;
+        color: rgba(250, 249, 249, 0.853);
+        text-align: center;
+    }
+}
